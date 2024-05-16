@@ -196,11 +196,11 @@
 			]
 		},
 		"contracts/TokenDeployer.sol": {
-			"keccak256": "0x93f1c92fbc8ca7c56ed0ee1f0d0651d2da4060738fdbba1bcca59eafd3e0ff3a",
+			"keccak256": "0x05461d3535170fd43980cf1f8395598ab8865c23bb9d384cd7fdbc0d180eb995",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://93ab110d78e3b5d0ac3621860637d501467be9996943cf4492dc154c414934e8",
-				"dweb:/ipfs/QmTpPytpWoCHRTjPp3L3UtfPXSac9Fk1PXnMqHfJVtRV1T"
+				"bzz-raw://34d10457c548ea4592cdc65ce86fe005b96b1f2caf8a37863c9102433ef72dfb",
+				"dweb:/ipfs/QmSBhFPkcbh7XNiRgbGcUYWftmemUsQZHyKRWvThwD6RTY"
 			]
 		},
 		"contracts/TokenERC721.sol": {
