@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "getImplementation",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "_implementation",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_implementation",
+						"type": "address"
+					}
+				],
+				"name": "setImplementation",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stringAvalue1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stringAvalue2",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "stringAvalue3",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Procxy.sol": "Proxy"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Procxy.sol": {
+			"keccak256": "0xca5a7ba597f3464208c0ae682cc03ed849e9d49da50f4946fa423e5afda6f0c0",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://2e6153605c09fd526429d135810d9cf85c2f5139f1b262bbf195ab895205071e",
+				"dweb:/ipfs/QmeUtbaEe4tDx1Y1sssw6XVTMsFHdDgchYbnEe6oqj6K7A"
+			]
+		},
+		"contracts/StorageContractA.sol": {
+			"keccak256": "0xf8a27d5b92527d8ef98e18ca1299ec2d3b21ed53035a6d9535034b108c3ad75b",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://09bacd15d0c2af891703b0e88a2a7829336ce4a94a918b3f551c40acff218039",
+				"dweb:/ipfs/QmXtdriHuW8iJsdjdazGuZo2VyeJbt6G9qer8gXWqwTsay"
+			]
+		}
+	},
+	"version": 1
+}

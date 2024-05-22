@@ -1,0 +1,100 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "stotageContractAddress",
+						"type": "address"
+					}
+				],
+				"name": "getStringAValue",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "stotageContractAddress",
+						"type": "address"
+					}
+				],
+				"name": "getUnknowVariable",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Caller.sol": "Caller"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Caller.sol": {
+			"keccak256": "0x4c6439217d5d7f8d0d82f12118e922e97d3440943a366bbf15b4a92d9fd67cfb",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://93b80e38cd0f9634a71e020a610380fbaa80c86bcab81d253a326a9af58ddc23",
+				"dweb:/ipfs/Qmc3XK7ps4AtnAMFEo112icNVzaTYGWzT9jQUzWrEkkcB7"
+			]
+		},
+		"contracts/StorageContractA.sol": {
+			"keccak256": "0x3a6e50b9752896208bcb61861f6e9690d040a7a8892db4e6e2c28c7ec2386c8d",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://aaff9c5363ea63202ec1decf75f516e3829b068c826426307db16fced3ff1fe6",
+				"dweb:/ipfs/QmNYsk7fxgVY53YkwzqTWrppXDcABZpDHL83dYD3J4ptjd"
+			]
+		},
+		"contracts/StorageContractB.sol": {
+			"keccak256": "0x001d5b0c115c8aa80b75d485213e04c9f91dd7ee4fbb7c1b99324280a6b604f8",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://58f2034012f2c5cb0b364ebedb6f9a31bedbc6ac2fc624e680d8179f90dbcdcf",
+				"dweb:/ipfs/QmRB6q1PhnaoXCMycaccAJtxuAJGuRKeSiA9Q6kFkAoGtw"
+			]
+		}
+	},
+	"version": 1
+}

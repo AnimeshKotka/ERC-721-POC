@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getValue",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StorageContractDemo.sol": "StorageContractDemo"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StorageContractA.sol": {
+			"keccak256": "0x9a5849e9d9f94b37cbfe610883c7fadb5bed92013c109db73bd717d48088d07d",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://714a1cb02f0155afd4b197bd0c7e4895ff98c7c003c4317bb87c4e3485b74714",
+				"dweb:/ipfs/QmanXRoiPSmc2SZm4WCYw1g7CPPK2FDj6ZK3JLpmy7YVU7"
+			]
+		},
+		"contracts/StorageContractB.sol": {
+			"keccak256": "0x001d5b0c115c8aa80b75d485213e04c9f91dd7ee4fbb7c1b99324280a6b604f8",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://58f2034012f2c5cb0b364ebedb6f9a31bedbc6ac2fc624e680d8179f90dbcdcf",
+				"dweb:/ipfs/QmRB6q1PhnaoXCMycaccAJtxuAJGuRKeSiA9Q6kFkAoGtw"
+			]
+		},
+		"contracts/StorageContractDemo.sol": {
+			"keccak256": "0xc3e59f6f97f730b411ccfa354aea5ce322e23bb87bc8db536ee1710a1bbd80ad",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://c7b048d3084a625a1f473e79df535e1842d1ec2be66d6ec5d4e910f21355ae6d",
+				"dweb:/ipfs/QmagD6kvxfNX1J8dzdx7otY6QWZPBtxmfrGEGYkscgzX8g"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getStorageContractA",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getStorageContractB",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "value",
+						"type": "string"
+					}
+				],
+				"name": "setStorageContractA",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_storageContractAAddress",
+						"type": "address"
+					}
+				],
+				"name": "setStorageContractAInstance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "storageContractAInstance",
+				"outputs": [
+					{
+						"internalType": "contract StorageContractA",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/StorageContractMethods.sol": "StorageContractMethod"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StorageContractA.sol": {
+			"keccak256": "0x6378d5edb2dd151b20272d07f98e53daa48cb7b964ac5cc08f446b6f6cdc7eba",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://9786757b2587677971d28e548af6d53a06c3a9c90001edac7ffc964f376e1d58",
+				"dweb:/ipfs/QmXXrKZLLC8hZn66BozD44nA52tPQk6bdGu4g15Y6HqTko"
+			]
+		},
+		"contracts/StorageContractMethods.sol": {
+			"keccak256": "0x59a6948ffbe0920020276a2b4241dbc913c392fef979641981205e7eabbfcadc",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://019d71a052083fe19eb1bdb32cea99ec98909f7ddf3fe45a2385393e7260c40c",
+				"dweb:/ipfs/QmS5vXUgcbe62ou2Fo9PNhux5Q4feaonKakcXVfk8KvdAu"
+			]
+		}
+	},
+	"version": 1
+}
